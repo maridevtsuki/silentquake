@@ -1,0 +1,103 @@
+---- qbsp / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+
+Input file: D:\QuakeDev\silentquake\game\maps\test2.map
+Output file: D:\QuakeDev\silentquake\game\maps\test2.bsp
+
+INFO: using built-in palette.
+WARNING: test2.map[line 5]: Unrecognised string escape - \Q
+WARNING: test2.map[line 5]: Unrecognised string escape - \w
+WARNING: test2.map[line 5]: Unrecognised string escape - \p
+WARNING: test2.map[line 5]: Unrecognised string escape - \Q
+WARNING: test2.map[line 5]: Unrecognised string escape - \s
+WARNING: test2.map[line 5]: Unrecognised string escape - \g
+WARNING: test2.map[line 5]: Unrecognised string escape - \m
+     6 entities
+     6 unique textures
+    22 texinfos
+    38 unique planes
+
+INFO: world extents calculated to 744 units
+     18 brushes
+    108 sides
+
+            0 texture frames added
+Processing hull 0...
+    16 SOLID brushes
+    16 brushes total
+    96 visible sides
+INFO: calculating BSP for 16 brushes with 96 sides
+    16 brushes
+    96 visible faces
+    57 nodes
+    57 expensive split nodes
+    58 leaves
+    40 EMPTY leafs
+    18 SOLID leafs
+    58 leafs total
+    10 max tree height
+     7 avg tree height
+    256 tree portals
+    36 outside leaves
+    0 detail filled leafs
+    16 brushes
+    20 visible faces
+    76 non-visible faces
+    59 nodes
+    48 non-visible nodes
+    59 expensive split nodes
+    60 leaves
+    40 EMPTY leafs
+    20 SOLID leafs
+    60 leafs total
+    8 max tree height
+    7 avg tree height
+    260 tree portals
+    38 outside leaves
+    0 detail filled leafs
+    260 tree portals
+    22 sides visible
+    22 makefaces
+     4 merged
+     4 subdivided
+    48 nodes pruned
+    2 player-occupiable leaves
+    2 clusters of leaves
+    1 vis portals
+    10 SOLID leafs
+     2 EMPTY leafs
+    12 leafs total
+    7 max tree height
+    5 avg tree height
+     8 edges added by tjunctions
+    22 faces optimized through MWT
+    52 triangles computed from MWT
+     2 faces created via optimization of MWT triangles
+    50 edges
+    24 faces
+Processing hull 1...
+Processing hull 2...
+Writing test2.bsp as Quake BSP bsp29
+Wrote test2.bsp
+
+count   lump name    byte size 
+      2 models              128
+     39 planes              780
+     48 vertexes            576
+     22 nodes               528
+     11 texinfos            440
+     41 faces               820
+     54 clipnodes           432
+     15 leafs               420
+     41 marksurfaces         82
+     86 edges               344
+    170 surfedges           680
+      6 textures         750988
+        lightdata             0
+        visdata               0
+        entdata             413
+
+0.106s seconds elapsed
+
+

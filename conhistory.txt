@@ -1,0 +1,229 @@
+in_xinput
+in_xinput 0
+in_xinput1
+in_xinput 1
+fps_preset
+cl_maxfps 10
+cl_maxfps 30
+cl_maxfps 18
+cl_maxfps 60
++speed
+-speed
+viewpos
+gl_texturemode gl_nearest
+/gl_bloo 1
+/gl_bloom 1
+/gl_bloom 2
+/gl_bloom 10
+gl_affinemodels
+gl_affinemodels 1
+gl_affinemodels 2
+gl_texturemode gl_nearest
+gl_texturemode gl_nearest
+cfg_save_all
+cfg_save_all 1
+gl_bloom 1
+cfg_save_all 0
+gl_bloom 1
+gl_texturemode gl_nearest
+r_fullbright
+r_fullbright 1
+r_fullbright .5
+gl_texturemode gl_linear
+gl_texturemode gl_nearest
+gl_texturemode gl_linear
+gl_texturemode gl_nearest
+c
+/cl_firstperson 
+r_showtris 1
+r_showtris 0
+map test
+gl_texturemode 
+gl_texturemode gl_nearest
+gl_texturemode gl_linear_mipmapped_linear
+r_lightmap
+r_lightmap 1
+r_lightmap 0
+r_lightmap 2
+r_lightmap 1
+r_lightmap 0
+r_showtris
+r_showtris 1
+noclip
+r_showtris 1
+r_showtris 1
+r_showtris 0
+gl_texturemode
+gl_texturemode gl_linear_mipmap_linear
+gl_texturemode gl_nearest_mipmap
+gl_texturemode gl_nearest_mipmap_linear
+/r_fullbright .5
+gl_texturemode gl_linear_mipmap_linear
+gl_texturemode gl_nearest_mipmap_linear
+map test2
+map test2
+r_showbboxes
+r_showbboxes 1
+map test
+map test2
+map test2
+map test2
+map test2
+r_showfields
+r_showfields 1
+sv
+sv_friction
+sv_friction 1
+sv_friction 0
+sv_friction 100
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+r_showbboxes 1
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+map test2
+clear
+map test2
+map test2
+map test
+map test2
+map test2
+pr_dumpplatform
+map test2
+map test2
+map test2
+map test2
+r_lightmap
+/r_lightmap_format
+/r_lightmap_format 1
+map test2
+/pr_dumpplatform 
+map test2
+map test
+map test2
+map test
+map test2
+gl_texturemode gl_nearest_mipmap_linear
+map test2
+game
+map test2
+r_dumpshaders
+r_postprocshader
+r_postprocshader 1
+r_postprocshader 2
+r_postprocshader 3
+r_postprocshader ascii
+map test2
+map test2
+map test2
+map test2
+map test2
+gl_texturemode gl_nearest_mipmap_linear
+gl_texturemode gl_linear_mipmap_linear
+r_bloom
+r_bloom 1
+r_bloom 10
+r_bloom 0
+/r_bloodstains 
+/r_bloodstains  2
+/r_bloodstains 0
+map test2
+map test2
+sv_friction 10
+sv_friction 0
+sv_friction 1
+sv_friction 10000
+gl_texturemode gl_nearest_mipmap_linear
+gl_texturemode gl_linear_mipmap_linear
+cl_maxfps 0
+cl_maxfps 60
+cl_maxfps 10
+cl_maxfps 30
+cl_maxfps 20
+/chase_active 0
+/chase_active 1
+cl_yieldcpu
+cl_yieldcpu 60
+/cl_maxfps 0
+/chase_active 0
+/chase_active 0
+map test2
+map test
+map test2
+map test2
+map test2
+map test2
+/compile 
+/compile 
+/compile 
+/pr_dumpplatform 
+/pr_dumpplatform  h
+/pr_dumpplatform Tcs
+/pr_dumpplatform -Tcs
+/pr_dumpplatform -Tcs -o cl_defs.qc
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+bind \ console
+/unbind \ 
+map test2
+clear
+map test2
+map test
+/r_meshpitch 1
+/r_meshpitch -1
+/r_meshpitch 1
+clear
+clear
+clear
+clear
+clear
+map test
+compile
+map test
+clear
+map test
+map test
+clear
+clear
+map test
+clear
+map test
+cleart
+clear
+compile
+map test
+clear
+/r_showfields 1
+clear
+clear
+clear
+clear
+clear
+clear
+/bind ALT F4 quit
+quit
+/vid_fullscreen 
+/vid_fullscreen  0
+vid_restart

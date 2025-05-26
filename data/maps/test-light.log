@@ -1,0 +1,40 @@
+---- light / ericw-tools 2.0.0-alpha9 ----
+LoadBSPFile: 'test.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from test.texinfo.json...
+6 entities read, 0 are lights.
+
+--- Options Summary ---
+    "dirt" was set to "1" (from command line)
+    "minlight_dirt" was set to "1" (from command line)
+    "sunlight" was set to "300.000000" (from map)
+    "sunlight_color" was set to "253 245 223" (from map)
+    "sunlight2" was set to "150.000000" (from map)
+    "sunlight_dirt" was set to "1.000000" (from command line)
+    "sunlight2_dirt" was set to "1.000000" (from command line)
+    "sunlight_mangle" was set to "-4.371139e-08 0 -1" (from map)
+
+Embree_TraceInit: Embree version: 3.13.1
+Embree_TraceInit: 
+	31 sky faces
+	184 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
+Final count: 0 lights, 66 suns in use.
+Colored light entities/settings detected: .lit output enabled.
+       48 dirtmap vectors
+0 surface light points in use.
+lightmap size (total): 29344
+Lighting Completed.
+
+Writing test.lit
+0 switchable light styles (32 max)
+Writing test.bsp as Quake BSP bsp29
+0.036s seconds elapsed
+0 empty lightmaps
+
+

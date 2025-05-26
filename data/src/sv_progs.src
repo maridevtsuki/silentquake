@@ -1,0 +1,11 @@
+../progs.dat
+sv_defs.qc
+sv_customdefs.qc
+sh_defs.qc
+sv_cameras.qc
+sv_main.qc
+sv_player.qc
+sv_interactables.qc
+sv_triggers.qc
+sv_misc.qc
+sv_lights.qc

@@ -1,0 +1,104 @@
+---- qbsp / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+
+Input file: /home/mari/Desktop/silentquake/game/maps/test.map
+Output file: /home/mari/Desktop/silentquake/game/maps/test.bsp
+
+INFO: using built-in palette.
+      9 entities
+     10 unique textures
+     96 texinfos
+    142 unique planes
+
+INFO: world extents calculated to 1544 units
+     57 brushes
+    350 sides
+      5 side bevels
+
+            0 texture frames added
+Processing hull 0...
+    10 DETAIL_WALL | DETAIL brushes
+     9 SKY brushes
+    36 SOLID brushes
+    55 brushes total
+    338 visible sides
+INFO: calculating BSP for 55 brushes with 338 sides
+     55 brushes
+    338 visible faces
+    151 nodes
+    151 expensive split nodes
+    152 leaves
+     10 DETAIL_WALL | DETAIL leafs
+     38 SOLID leafs
+     13 SKY leafs
+     91 EMPTY leafs
+    152 leafs total
+    15 max tree height
+    10 avg tree height
+    791 tree portals
+    41 outside leaves
+    0 detail filled leafs
+     55 brushes
+    133 visible faces
+    205 non-visible faces
+    159 nodes
+     69 non-visible nodes
+    159 expensive split nodes
+    160 leaves
+     11 DETAIL_WALL | DETAIL leafs
+     42 SOLID leafs
+     17 SKY leafs
+     90 EMPTY leafs
+    160 leafs total
+    15 max tree height
+    10 avg tree height
+    794 tree portals
+    45 outside leaves
+    0 detail filled leafs
+    794 tree portals
+    291 sides visible
+    263 makefaces
+    102 merged
+     24 subdivided
+    31 nodes pruned
+    62 player-occupiable leaves
+    46 clusters of leaves
+    74 vis portals
+     45 EMPTY leafs
+     17 SKY leafs
+     67 SOLID leafs
+    129 leafs total
+    14 max tree height
+    10 avg tree height
+    135 edges added by tjunctions
+    185 faces optimized through MWT
+    505 triangles computed from MWT
+     30 faces created via optimization of MWT triangles
+    521 edges
+    215 faces
+Processing hull 1...
+Processing hull 2...
+Writing test.bsp as Quake BSP bsp29
+Wrote test.bsp
+
+count   lump name    byte size 
+      3 models              192
+    141 planes             2820
+    269 vertexes           3228
+    130 nodes              3120
+     65 texinfos           2600
+    215 faces              4300
+    254 clipnodes          2032
+     67 leafs              1876
+    349 marksurfaces        698
+    522 edges              2088
+    935 surfedges          3740
+     10 textures        1512764
+        lightdata             0
+        visdata               0
+        entdata             633
+
+0.057s seconds elapsed
+
+

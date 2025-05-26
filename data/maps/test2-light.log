@@ -1,0 +1,44 @@
+---- light / ericw-tools 2.0.0-alpha9 ----
+LoadBSPFile: 'test2.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from test2.texinfo.json...
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \Q
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \w
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \p
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \Q
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \s
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \g
+WARNING: test2.bsp[line 2]: Unrecognised string escape - \m
+5 entities read, 1 are lights.
+
+--- Options Summary ---
+    "dirt" was set to "1" (from command line)
+    "minlight_dirt" was set to "1" (from command line)
+    "bounce" was set to "1" (from command line)
+    "sunlight_dirt" was set to "1.000000" (from command line)
+    "sunlight2_dirt" was set to "1.000000" (from command line)
+    "soft" was set to "2" (from command line)
+    "extra" was set to "4" (from command line)
+
+Embree_TraceInit: Embree version: 3.12.1
+Embree_TraceInit: 
+	0 sky faces
+	24 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 1 initial lights
+SetupLights: 1 after surface lights
+SetupLights: 1 after jittering
+Final count: 1 lights, 0 suns in use.
+       48 dirtmap vectors
+0 surface light points in use.
+lightmap size (total): 1412
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing test2.bsp as Quake BSP bsp29
+0.110s seconds elapsed
+0 empty lightmaps
+
+

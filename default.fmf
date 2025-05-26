@@ -1,0 +1,4 @@
+game game
+name "Silent Quake"
+basegame data
+disablehomedir 1

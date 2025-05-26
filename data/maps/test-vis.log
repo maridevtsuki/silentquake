@@ -1,0 +1,21 @@
+---- vis / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+
+LoadBSPFile: 'test.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+    62 leafs
+    46 clusters
+    74 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 32
+c_noclip: 0
+c_chains: 2606
+visdatasize:324  compressed from 496
+Writing test.bsp as Quake BSP bsp29
+0.01s elapsed
+
+

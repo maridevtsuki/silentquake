@@ -1,0 +1,4 @@
+void() light =
+{
+    remove(self);
+}
