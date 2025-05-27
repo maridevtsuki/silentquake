@@ -1,14 +1,14 @@
 
-void() cinteract1 = [341, cinteract2]{};
-void() cinteract2 = [342, cinteract3]{};
-void() cinteract3 = [343, cinteract4]{};
-void() cinteract4 = [344, cinteract5]{};
-void() cinteract5 = [345, cinteract6]{};
-void() cinteract6 = [346, cinteract7]{};
-void() cinteract7 = [347, cinteract8]{};
-void() cinteract8 = [348, cinteract9]{};
-void() cinteract9 = [349, cinteract10]{};
-void() cinteract10 = [350, player_run]{};
+void() cinteract1 = [143, cinteract2]{};
+void() cinteract2 = [144, cinteract3]{};
+void() cinteract3 = [145, cinteract4]{};
+void() cinteract4 = [146, cinteract5]{};
+void() cinteract5 = [147, cinteract6]{};
+void() cinteract6 = [148, cinteract7]{};
+void() cinteract7 = [149, cinteract8]{};
+void() cinteract8 = [150, cinteract9]{};
+void() cinteract9 = [151, cinteract10]{};
+void() cinteract10 = [152, player_run]{};
 
 
 void() player_run = [ self.frame, player_run ] {

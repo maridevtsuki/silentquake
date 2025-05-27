@@ -234,3 +234,11 @@ bind SPACE +button0
 compile, resrart
 compile; resrart
 compile + restart
+/r_showbboxes 1
+/r_showbboxes 0
+clear
+/model
+/modelviewer models/face.md3 
+/modelviewer models/head.md3 
+/modelviewer models/upper.md3 
+/modelviewer models/lower.md3 
