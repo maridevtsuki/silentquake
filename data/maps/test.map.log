@@ -1,0 +1,13 @@
+---- qbsp / ericw-tools 2.0.0-alpha9 ----
+
+--- Options Summary ---
+
+Input file: /home/madotsuki/Desktop/silentquake/data/maps/test.map.map
+Output file: /home/madotsuki/Desktop/silentquake/data/maps/test.map.bsp
+
+INFO: using built-in palette.
+************ ERROR ************
+LoadMapFile: Couldn't load map file "test.map.map".
+
+
+

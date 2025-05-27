@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "/home/mari/Desktop/silentquake/game/maps/textures.wad;/home/mari/Desktop/silentquake/game/maps/prototype_all_1_3.wad"
+"wad" "textures.wad;prototype_all_1_3.wad"
 "_sun_mangle" "0 -90"
 "_sunlight" "300"
 "_sunlight2" "150"
@@ -571,6 +571,16 @@
 "targetname" "cam2"
 }
 // entity 8
+{
+"classname" "interactable_test"
+"origin" "-8 120 8"
+}
+// entity 9
+{
+"classname" "interactable_test"
+"origin" "-72 120 40"
+}
+// entity 10
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"

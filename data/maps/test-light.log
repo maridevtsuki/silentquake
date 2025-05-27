@@ -3,7 +3,7 @@ LoadBSPFile: 'test.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
 Loading extended texinfo flags from test.texinfo.json...
-6 entities read, 0 are lights.
+8 entities read, 0 are lights.
 
 --- Options Summary ---
     "dirt" was set to "1" (from command line)
@@ -34,7 +34,7 @@ Lighting Completed.
 Writing test.lit
 0 switchable light styles (32 max)
 Writing test.bsp as Quake BSP bsp29
-0.036s seconds elapsed
+0.084s seconds elapsed
 0 empty lightmaps
 
 

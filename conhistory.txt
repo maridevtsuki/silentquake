@@ -227,3 +227,10 @@ quit
 /vid_fullscreen 
 /vid_fullscreen  0
 vid_restart
+bind SPACE +button0
+/r_showbboxes 1
+/modelviewer models/lower.md3 
+/modelviewer models/upper.md3 
+compile, resrart
+compile; resrart
+compile + restart

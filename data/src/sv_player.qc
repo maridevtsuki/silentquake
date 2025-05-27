@@ -1,12 +1,14 @@
 
-//
-//	Player.qc - Various stuff done for the player, including per-frame functions like PlayerPreThink and PlayerPostThink, also client specific stuff like PutClientInServer etc.
-//
-
-
-//
-// running
-//
+void() cinteract1 = [341, cinteract2]{};
+void() cinteract2 = [342, cinteract3]{};
+void() cinteract3 = [343, cinteract4]{};
+void() cinteract4 = [344, cinteract5]{};
+void() cinteract5 = [345, cinteract6]{};
+void() cinteract6 = [346, cinteract7]{};
+void() cinteract7 = [347, cinteract8]{};
+void() cinteract8 = [348, cinteract9]{};
+void() cinteract9 = [349, cinteract10]{};
+void() cinteract10 = [350, player_run]{};
 
 
 void() player_run = [ self.frame, player_run ] {
@@ -20,7 +22,6 @@ void() player_run = [ self.frame, player_run ] {
     {
         self.frame = 172;
     }
-
 };
 
 void() PlayerHurt =
@@ -30,36 +31,32 @@ void() PlayerHurt =
 	print(" health!\n");
 }
 
-void() PlayerJump =
-{
-	if (!(self.flags & FL_ONGROUND))
-		return;
-
-	if ( !(self.flags & FL_JUMPRELEASED) )
-		return;
-	
-	self.flags = self.flags - (self.flags & FL_JUMPRELEASED);
-	self.button2 = 0;
-};
-
 
 void() PlayerUse =
 {
-	vector source;
-	vector end;
+	entity hit;
 	makevectors(self.v_angle);
 
-	source = self.origin + '0 0 48';
-	end = source + v_forward * 48;
-
-	traceline(source, end, 0, self);
-
+	
+	//Body trace
+	traceline(self.origin, self.origin + v_forward*48, 0, self);
 	if (trace_fraction < 1.0)
 	{
-		
-		local entity hit = trace_ent;
+		hit = trace_ent;
 		if(hit.use != __NULL__)
 		{
+			doAsSelf(hit, hit.use);
+			return;
+		}
+	}
+	//Ground trace
+	traceline(self.origin - '0 0 20', self.origin + v_forward*48 - '0 0 20', 0, self);
+	if (trace_fraction < 1.0)
+	{
+		hit = trace_ent;
+		if(hit.use != __NULL__)
+		{
+			cinteract1();
 			doAsSelf(hit, hit.use);
 		}
 	}
@@ -79,19 +76,7 @@ void() PlayerPreThink =
 
 	if(self.button0)
 	{
-		
-	}
-	if(self.button2)
-	{
-		PlayerJump();
-	}
-	if(self.button4)
-	{
 		PlayerUse();
-	}
-	else
-	{
-		self.flags = self.flags | FL_JUMPRELEASED;
 	}
 
 };
