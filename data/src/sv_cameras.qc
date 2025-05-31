@@ -1,3 +1,20 @@
+void() triggerCamEndTouch =
+{
+	WriteByte(MSG_MULTICAST, SVC_CGAMEPACKET);
+	WriteByte(MSG_MULTICAST, TRIGGERCAM);
+	WriteString(MSG_MULTICAST, "");
+
+	WriteCoord(MSG_MULTICAST, 0);
+	WriteCoord(MSG_MULTICAST, 0);
+	WriteCoord(MSG_MULTICAST, 0);
+
+	WriteCoord(MSG_MULTICAST, 0);
+	WriteCoord(MSG_MULTICAST, 0);
+	WriteCoord(MSG_MULTICAST, 0);
+	
+	multicast('0 0 0', MULTICAST_ONE);
+}
+
 void() triggerCamTouch =
 {
 	if (other.classname != "player")
@@ -19,6 +36,7 @@ void() triggerCamTouch =
 	WriteCoord(MSG_MULTICAST, t.angles_z);
 	
 	multicast('0 0 0', MULTICAST_ONE);
+	self.nextthink = time + 0.1;
 };
 
 void() trigger_camera =
@@ -27,6 +45,7 @@ void() trigger_camera =
 	self.modelindex = 0;
 	self.solid = SOLID_TRIGGER;
 	self.touch = triggerCamTouch;
+	self.think = triggerCamEndTouch;
 };
 
 

@@ -12,7 +12,7 @@ void(float width, float height, float menushow) CSQC_UpdateView =
     //setviewprop(VF_ANGLES, self.angles);
     
     CameraFrame();
-    cam_type = 0;
+
 
     setviewprop(VF_DRAWENGINESBAR, 0);//FUCK the hud
     setviewprop(VF_DRAWCROSSHAIR, 0);
@@ -26,18 +26,20 @@ void(float width, float height, float menushow) CSQC_UpdateView =
 
 void() CSQC_Parse_Event =
 {
-  local float event = readbyte();
-  if (event == TRIGGERCAM)
-  {
-    cam_type = readstring();
-    cam_origin.x = readcoord();
-    cam_origin.y = readcoord();
-    cam_origin.z = readcoord();
+	local float event = readbyte();
+	if (event == TRIGGERCAM)
+	{
+		cam_type = readstring();
+	
+		cam_origin.x = readcoord();
+		cam_origin.y = readcoord();
+		cam_origin.z = readcoord();
 
-    cam_angles.x = readcoord();
-    cam_angles.y = readcoord();
-    cam_angles.z = readcoord();
-  }
+	        cam_angles.x = readcoord();
+		cam_angles.y = readcoord();
+		cam_angles.z = readcoord();
+	
+	}
 }
 
 
